@@ -1,0 +1,10 @@
+{
+   "compileOptions": {
+      "esModuleInterop": true,
+      "composite": true,
+      "outDir": "dist",
+      "rootDir": "./",
+      "baseUrl": "src"
+   },
+   "include": ["src"]
+}

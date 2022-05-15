@@ -1,0 +1,23 @@
+{
+  "name": "@leand/testes-bt",
+  "version": "0.0.20220514-quente",
+  "description": "Testes com bluetooth no RPi Zero W no monitor",
+  "main": "src/main.ts",
+  "repository": "https://github.com/leandrogenas/testes-bt",
+  "author": "Leandro Augusto Fabri Pereira <l201039@dac.unicamp.br>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "modulos/**"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "tsc",
+    "dev": ""
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.7.0"
+  }
+}

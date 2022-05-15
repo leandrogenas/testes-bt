@@ -1,0 +1,15 @@
+{
+   "name": "@testes-bt/localizador",
+   "version": "0.99.1",
+   "author": "Leandro Fabri Pereira <l201039@dac.unicamp.br>",
+   "description": "Módulo de identificação de dispositivos",
+   "license": "MIT",
+   "private": "true",
+   "main": "dist/index.js",
+   "scripts": {
+      "build": "tsc ."
+   },
+   "devDependencies": {
+      "typescript": "^4.6.4"
+   }
+}
